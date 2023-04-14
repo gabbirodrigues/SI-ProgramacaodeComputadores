@@ -29,7 +29,7 @@ programa
 				pare
 			caso '/':
 				se(numero1 == 0 ou numero2 == 0){
-					escreva("O programa não permite divisão por zero. Escolha outro(s) número(s). \n")
+					escreva("O programa não permite divisão por zero. \n")
 				}senao{
 					resultado = numero1 / numero2
 					escreva("O resultado da divisão entre " ,numero1, " e " ,numero2, " é " ,resultado, " . \n")
